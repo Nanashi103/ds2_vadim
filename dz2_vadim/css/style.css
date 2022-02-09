@@ -1,0 +1,519 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 150%;
+    color: rgba(15, 01, 01, 0.6);
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+.fs {
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.conteiner {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 132px;
+    margin-left: auto;
+}
+
+.fs__nav {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: rgba(21, 1, 1, 0.6);
+}
+
+.fs__style__nav {
+    font-weight: bold;
+    color: #d23166;
+}
+
+.fs__text {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(21, 1, 1, 1);
+}
+
+.fs__title {
+    font-size: 57.33px;
+    line-height: 120.5%;
+    opacity: 0.9;
+    color: #0f0101;
+    font-family: "Fredoka One", sans-serif;
+    margin-bottom: 35px;
+}
+
+.description {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.fs__ice__cream {
+    color: #d23166;
+}
+
+.btn {
+    padding: 14px 50px 13px 50px;
+    background-color: #d23166;
+    border-radius: 5px;
+    color: #fafafa;
+    font-family: "Hind Madurai", sans-serif;
+}
+
+.fs__btn {
+    margin-top: 50px;
+}
+
+.fs__main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fs__article {
+    max-width: 60%;
+    flex: 1 0 60%;
+}
+
+.fs__img1 {
+    max-width: 40%;
+    flex: 1 0 40%;
+}
+
+.description {
+    max-width: 523px;
+}
+
+.fs__white__conteiner {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.fs__menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Hind Madurai;
+    margin: 100px 0 100px 0;
+    justify-content: space-between;
+}
+
+.fs__menu__bar {
+    text-align: center;
+    max-width: 198px;
+}
+
+.fs__menu__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(21, 1, 1, 1);
+}
+
+.fs__menu__description {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.main__conteiner {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    color: rgba(21, 1, 1, 1);
+}
+
+.main__text {
+    flex: 0 1 40%;
+}
+
+.main__title {
+    max-width: 349px;
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    margin-bottom: 16.04px;
+}
+
+.main__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.main__img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 60%;
+}
+
+.list__conteiner {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list__title {
+    text-align: center;
+    margin: 137.31px 0 64px 0;
+}
+
+.list__title__text {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: rgba(21, 1, 1, 1);
+}
+
+.list__nav {
+    margin: 0 0 50px 126px;
+}
+
+.list__nav__menu {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 39px;
+}
+
+.list__nav__menu__hover:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.list__description {
+    margin: 0px 0 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.list_img {
+    max-width: 60%;
+    flex: 0 1 60%;
+}
+
+.list__description__text {
+    max-width: 40%;
+    flex: 0 1 40%;
+    margin-left: 84px;
+}
+
+.list__description__title {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.list__description__about {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 28px;
+}
+
+.list__description__price {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.list__price__through {
+    font-family: "Hind Madurai", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+}
+
+.description__text_right {
+    /*непонятно по позиционке */
+    text-align: right;
+    margin-left: 0px;
+}
+.list__img__right {
+    /*+++ к верхнему коменту*/
+    margin-left: 84px;
+}
+
+.list__adele__info {
+    margin-left: 11px;
+}
+
+.list__adele {
+    margin-top: 82px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.list__adele__about {
+    flex: 0 1 40%;
+    max-width: 40%;
+}
+
+.adele__photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adele__info__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.adele__amirican {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.adele__prompt__service {
+    max-width: 345px;
+
+    margin: 46px 0 0 24px;
+}
+
+.adele__description {
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.adele__top {
+    vertical-align: top;
+}
+
+.adele__bot {
+    vertical-align: bottom;
+}
+
+.adele__media {
+    margin-top: 39px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adele__img {
+    flex: 1 0 60%;
+}
+
+.telephone {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.telephone__images {
+    flex: 0 1 30%;
+    max-width: 30%;
+}
+
+.telephone__minus {
+    margin-top: 59px;
+    margin-bottom: -47px;
+}
+
+.telephone__content {
+    flex: 0 1 70%;
+    max-width: 70%;
+}
+
+.telephone__indent {
+    margin-top: 87px;
+    margin-left: 134px;
+}
+
+.telephone__title {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+.telephone__description {
+    max-width: 607px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 29px;
+}
+
+.telephone__icon {
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    vertical-align: middle;
+}
+
+.telephone__icon__indent {
+    margin-right: 10px;
+}
+
+.telephone__google__icon {
+    margin: 39px 0 0 120px;
+}
+
+.icon__app__store {
+    margin-left: 7px;
+    vertical-align: sub;
+}
+
+.bottom__title {
+    max-width: 522px;
+    margin: 191px 0 28px 255px;
+}
+
+.bottom__title__text {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 1);
+}
+
+.bottom__buton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 149px;
+}
+
+.bottom__enter {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer {
+    background-color: rgba(10, 8, 8, 1);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__conteiner {
+    max-width: 1155px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__logo {
+    margin-top: 70px;
+}
+
+.footer__text {
+    max-width: 207px;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    margin: 9px 0 25px 0;
+}
+
+.footer__fllow {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+}
+
+.social__icon {
+    margin-right: 10px;
+}
+
+.footer__decoration {
+    list-style: none;
+    margin: 143px 0 104px 37px;
+}
+
+.footer__home {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer__nav__block {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer__decoration__two {
+    list-style: none;
+    margin: 150px 0 104px 132px;
+}
+
+.footer__mail {
+    margin: 136px 0 0 150px;
+}
+
+.footer__letter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+}
+
+form {
+    margin-top: 13px;
+    display: flex;
+}
+
+.footer__input {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(10, 8, 8, 1);
+    border: 2px solid #d64374;
+    border-radius: 5px;
+    padding: 20px 32px 20px 32px;
+}
+
+.footer__button {
+    margin-left: -5px;
+}
+
+.footer__card {
+    margin: 15px 5px 0 0;
+}
